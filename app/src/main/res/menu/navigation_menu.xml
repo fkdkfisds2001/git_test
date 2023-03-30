@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/menuProfile"
+        android:icon="@drawable/profile"
+        android:title="@string/프로필"
+        android:background="#AFD485"></item>
+    <item
+        android:id="@+id/menuBook"
+        android:icon="@drawable/book"
+        android:title="@string/book" />
+    <item
+        android:id="@+id/menuClothes"
+        android:icon="@drawable/clothes"
+        android:title="@string/clothes" />
+    <item
+        android:id="@+id/menuContainer"
+        android:icon="@drawable/container"
+        android:title="@string/container" />
+    <item
+        android:id="@+id/menuCream"
+        android:icon="@drawable/cream"
+        android:title="@string/cream" />
+    <item
+        android:id="@+id/menuElec"
+        android:icon="@drawable/elec"
+        android:title="@string/elec" />
+    <item
+        android:id="@+id/menuFood"
+        android:icon="@drawable/food"
+        android:title="@string/food" />
+    <item
+        android:id="@+id/menuGagu"
+        android:icon="@drawable/gagu"
+        android:title="@string/gagu" />
+    <item
+        android:id="@+id/menuGita"
+        android:icon="@drawable/gita"
+        android:title="@string/gita" />
+</menu>

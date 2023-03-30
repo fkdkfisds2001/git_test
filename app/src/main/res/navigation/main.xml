@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuProfile">
+
+    <fragment
+        android:id="@+id/menuProfile"
+        android:name="com.example.practice.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/menuBook"
+        android:name="com.example.practice.BookFragment"
+        android:label="fragment_book"
+        tools:layout="@layout/fragment_book" >
+        <action
+            android:id="@+id/action_menuBook_to_bookFragment2"
+            app:destination="@id/bookFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuClothes"
+        android:name="com.example.practice.ClothesFragment"
+        android:label="fragment_clothes"
+        tools:layout="@layout/fragment_clothes" >
+        <action
+            android:id="@+id/action_menuClothes_to_clothesFragment2"
+            app:destination="@id/clothesFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuContainer"
+        android:name="com.example.practice.ContainerFragment"
+        android:label="fragment_container"
+        tools:layout="@layout/fragment_container" >
+        <action
+            android:id="@+id/action_menuContainer_to_containerFragment2"
+            app:destination="@id/containerFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuCream"
+        android:name="com.example.practice.CreamFragment"
+        android:label="fragment_cream"
+        tools:layout="@layout/fragment_cream" >
+        <action
+            android:id="@+id/action_menuCream_to_creamFragment2"
+            app:destination="@id/creamFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuElec"
+        android:name="com.example.practice.ElecFragment"
+        android:label="fragment_elec"
+        tools:layout="@layout/fragment_elec" >
+        <action
+            android:id="@+id/action_menuElec_to_elecFragment2"
+            app:destination="@id/elecFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFood"
+        android:name="com.example.practice.FoodFragment"
+        android:label="fragment_food"
+        tools:layout="@layout/fragment_food" >
+        <action
+            android:id="@+id/action_menuFood_to_foodFragment2"
+            app:destination="@id/foodFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuGagu"
+        android:name="com.example.practice.GaguFragment"
+        android:label="fragment_gagu"
+        tools:layout="@layout/fragment_gagu" >
+        <action
+            android:id="@+id/action_menuGagu_to_gaguFragment2"
+            app:destination="@id/gaguFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuGita"
+        android:name="com.example.practice.GitaFragment"
+        android:label="fragment_gita"
+        tools:layout="@layout/fragment_gita" >
+        <action
+            android:id="@+id/action_menuGita_to_gitaFragment2"
+            app:destination="@id/gitaFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookFragment2"
+        android:name="com.example.practice.BookFragment2"
+        android:label="fragment_book2"
+        tools:layout="@layout/fragment_book2" />
+    <fragment
+        android:id="@+id/clothesFragment2"
+        android:name="com.example.practice.ClothesFragment2"
+        android:label="fragment_clothes2"
+        tools:layout="@layout/fragment_clothes2" />
+    <fragment
+        android:id="@+id/containerFragment2"
+        android:name="com.example.practice.ContainerFragment2"
+        android:label="fragment_container2"
+        tools:layout="@layout/fragment_container2" />
+    <fragment
+        android:id="@+id/creamFragment2"
+        android:name="com.example.practice.CreamFragment2"
+        android:label="fragment_cream2"
+        tools:layout="@layout/fragment_cream2" />
+    <fragment
+        android:id="@+id/elecFragment2"
+        android:name="com.example.practice.ElecFragment2"
+        android:label="fragment_elec2"
+        tools:layout="@layout/fragment_elec2" />
+    <fragment
+        android:id="@+id/foodFragment2"
+        android:name="com.example.practice.FoodFragment2"
+        android:label="fragment_food2"
+        tools:layout="@layout/fragment_food2" />
+    <fragment
+        android:id="@+id/gaguFragment2"
+        android:name="com.example.practice.GaguFragment2"
+        android:label="fragment_gagu2"
+        tools:layout="@layout/fragment_gagu2" />
+    <fragment
+        android:id="@+id/gitaFragment2"
+        android:name="com.example.practice.GitaFragment2"
+        android:label="fragment_gita2"
+        tools:layout="@layout/fragment_gita2" />
+
+</navigation>
